@@ -1,0 +1,4 @@
+.vs
+node_modules
+lib/dll/src/Edge_FtpMgr/bin
+lib/dll/src/Edge_FtpMgr/obj

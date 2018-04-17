@@ -1,0 +1,25 @@
+{
+  "name": "node-iis-ftp-mgr",
+  "version": "0.1.0",
+  "description": "node-iis-ftp-mgr is a simple module that manages IIS 7.5 or higher FTP account.",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "edge": "7.10.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamdevil00/node-iis-ftp-mgr.git"
+  },
+  "author": "dreamdevil00",
+  "bugs": {
+    "url": "https://github.com/dreamdevil00/node-iis-ftp-mgr/issues"
+  },
+  "homepage": "https://github.com/dreamdevil00/node-iis-ftp-mgr#readme"
+}
