@@ -1,9 +1,21 @@
 # Description
 
 node-iis-ftp-mgr is a simple module that manages IIS 7.5 or higher FTP account.
+Your created user will have it's own home folder which isolate each other's.
 
-Attention: 
-In the FTP User isolation configuration, you have to select  ```username directory(global virtual directory)``` below the `isolate user`
+Attention:
+
+Before using this lib, you have to do following steps:
+
+- Install IIS7.5 or above for your computer. [Installing-iis-7](https://docs.microsoft.com/en-US/iis/install/installing-iis-7/installing-iis-7-and-above-on-windows-server-2008-or-windows-server-2008-r2)
+
+- Create your own ftp site, for example, named *DemoFtpSite*. [Creating-a-new-ftp-site-in-iis-7](https://docs.microsoft.com/en-US/iis/publish/using-the-ftp-service/creating-a-new-ftp-site-in-iis-7)
+
+- Create an application pool, for example, named *poolName*
+
+- Configure your `FTP User Isolation`,  select  ```User name directory(disable global virtual directories)``` below the `Isolate users`.
+[Configuring-ftp-user-isolation-in-iis-7](https://docs.microsoft.com/en-US/iis/publish/using-the-ftp-service/configuring-ftp-user-isolation-in-iis-7)
+
 ## How to use?
 
 ```

@@ -1,6 +1,6 @@
 {
   "name": "node-iis-ftp-mgr",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "node-iis-ftp-mgr is a simple module that manages IIS 7.5 or higher FTP account.",
   "main": "index.js",
   "license": "MIT",
